@@ -6,12 +6,12 @@
 		<script type='text/javascript' src='bug-min.js'></script>
 		<script type='text/javascript'>
 			// default fruit fly bug:
-			new BugController({
-			});
-
-			// default spiders:
-			new SpiderController({
-			});
+			new BugController({'minDelay ':500, 'maxDelay ':505,
+	'minBugs':bogarak, 'maxBugs':bogarak, 
+	'mouseOver':'flyoff'});
+	new SpiderController({'minDelay ':1500, 'maxDelay ':1505,
+	'minBugs':pokok, 'maxBugs':pokok, 
+	'mouseOver':'die'});
 		</script>
 	</body>
 </html>
